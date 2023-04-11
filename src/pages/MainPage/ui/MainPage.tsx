@@ -1,13 +1,13 @@
 import React from 'react';
-import {useTranslation} from "react-i18next";
+import { useTranslation } from 'react-i18next';
 
 function MainPage() {
-    const [t] = useTranslation()
+    const [t] = useTranslation();
 
     return (
         <div>
             <h1>
-                {t("Моя страница")}
+                {t('Моя страница')}
             </h1>
         </div>
     );
